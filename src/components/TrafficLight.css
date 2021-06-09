@@ -1,0 +1,51 @@
+.traffic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.traffic-top{
+    background-color: black;
+    width: 20px;
+    height: 100px;
+}
+
+.traffic-light{
+    background-color: black;
+    width: 200px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.light {
+    width: 180px;
+    height: 180px;
+}
+
+.red {
+    background-color: rgb(144, 18, 18);
+}
+.red-active {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 30px #ffffff;
+}
+
+.yellow {
+    background-color: rgb(171, 171, 23);
+}
+.yellow-active {
+    background-color: rgb(255, 255, 0);
+    box-shadow: 0px 0px 30px #ffffff;
+}
+
+.green {
+    background-color: rgb(12, 130, 12);
+}
+.green-active {
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0px 0px 30px #ffffff;
+}
